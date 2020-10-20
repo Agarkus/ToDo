@@ -1,0 +1,104 @@
+body
+{
+    background: #2b2e4a;
+}
+
+.container 
+{
+    max-width: 480px;
+}
+
+input[type=text],
+input[type=text]:focus
+{
+    color: #fff;
+    border: none;
+    background:#2d4059 ;
+}
+
+.todos li 
+{
+    background:#00a8cc;
+}
+
+.delete
+{
+    cursor: pointer;
+}
+
+.edit 
+{
+    cursor: pointer;
+}
+
+.filter
+{
+    display: none;
+}
+
+.clock span 
+{
+    background: rgb(0, 168, 204,0.6);
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px;
+    
+}
+
+.clock
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.strike 
+{
+    color: #f9f6f7;
+    text-decoration: line-through;
+    
+}
+
+.list-group-item span
+
+{
+    cursor: pointer;
+}
+
+label {
+    color: #fff;
+    font-weight: 600;
+}
+
+.toggle 
+{
+    background: rgb(0, 168, 204,0.3);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255);
+}
+.add-label
+{
+    font-weight: 600;
+}
+
+
+/* theme */
+
+
+.light-bg
+{
+    background: #edf7fa;
+
+}
+
+.light-text{
+    color: #2b2e4a;
+    font-weight: 540;
+}
+
+.light-button 
+{
+    background: rgb(0, 168, 204,0.6);
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Todos</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4" id="heading">Todo List</h1>
+            <div class="clock my-4">
+            </div>
+            <form class="search">
+                    <input type="text" class="form-control m-auto" name="search" placeholder="Search">
+               
+            </form>
+
+        </header>
+        <ul class="list-group todos mx-auto text-light">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+             <span class="strikeable">Learn javaScript</span>
+             <div class="actions">
+                <i class="far fa-trash-alt delete"></i>
+             </div>
+             
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span class="strikeable">Workout</span>
+                <div class="actions">
+                    <i class="far fa-trash-alt delete"></i>
+                 </div>
+               </li>
+        </ul>
+
+        <form class="add text-center my-4">
+            <label id="add-label">Add a new Task</label>
+            <input type="text" name="add" class="form-control m-auto" placeholder="What to do next?">
+        </form>
+             <div>
+            <button class="btn btn-sm btn-block toggle">Switch Theme</button>
+            </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.30.1/date_fns.js" integrity="sha256-Up7eABHDPfisYNkMbk3BSJFTuxImIZt2+97gU/Am8zA=" crossorigin="anonymous"></script>
+  <script src="app.js"></script>  
+</body>
+</html>
